@@ -16,10 +16,21 @@
     background-color: chocolate;
 }
 .accomodations-card{
+    background-color: cyan;
 
 }
-.popular-con{}
-.popular-card{}
-.activites-con{}
-.footer-con{}
-.footer-box{}
+.popular-con{
+    background-color: darkgoldenrod;
+}
+.popular-card{
+    background-color: darkgray;
+}
+.activites-con{
+    background-color: darkolivegreen;
+}
+.footer-con{
+    background-color: rgb(190, 147, 147);
+}
+.footer-box{
+    background-color: darkslategray;
+}
