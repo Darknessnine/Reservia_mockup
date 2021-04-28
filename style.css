@@ -8,9 +8,16 @@
 .nav-con{}
 .header-con{}
 .filter-con{}
-.accommodations-popular-con{}
-.accomodations-con{}
-.accomodations-card{}
+.accommodations-popular-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.accomodations-con{
+    background-color: chocolate;
+}
+.accomodations-card{
+
+}
 .popular-con{}
 .popular-card{}
 .activites-con{}
