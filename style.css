@@ -2,17 +2,26 @@
 , as well as grey for the background #F2F2. */
 
 .main-con{
+    box-sizing: border-box;
     background-color:#DEEBFF;
 }
 
-.nav-con{}
-.header-con{}
-.filter-con{}
+.nav-con{
+    background-color: rgb(199, 224, 199);
+}
+.header-con{
+    background-color: rgb(197, 194, 184);
+}
+.filter-con{
+    background-color: rgba(201, 148, 231, 0.295);
+}
 .accommodations-popular-con{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30x;
 }
 .accomodations-con{
+    display: flex;
     background-color: chocolate;
 }
 .accomodations-card{
