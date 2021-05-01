@@ -1,11 +1,17 @@
 /* The colors of the chart are blue #0065FC and its lighter version #DEEBFF
 , as well as grey for the background #F2F2. */
 
+
 .main-con{
     box-sizing: border-box;
     background-color:#DEEBFF;
     max-width: 1500px;
     margin: auto;
+}
+
+.figure {
+    border: black 1px;
+    background-color: red;
 }
 
 .nav-con{
@@ -20,14 +26,18 @@
 .accommodations-popular-con{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 30x;
+    grid-column-gap: 20px;
+    border: solid 1px black;
 }
 .accomodations-con{
-    display: flex;
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+    grid-column: 1/3;
     background-color: chocolate;
 }
 .accomodations-card{
     background-color: rgb(151, 145, 107);
+    border: solid 1px black;
 
 }
 .popular-con{
