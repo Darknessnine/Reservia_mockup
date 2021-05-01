@@ -4,6 +4,8 @@
 .main-con{
     box-sizing: border-box;
     background-color:#DEEBFF;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .nav-con{
@@ -25,7 +27,7 @@
     background-color: chocolate;
 }
 .accomodations-card{
-    background-color: cyan;
+    background-color: rgb(151, 145, 107);
 
 }
 .popular-con{
@@ -38,8 +40,8 @@
     background-color: darkolivegreen;
 }
 .footer-con{
-    background-color: rgb(190, 147, 147);
+    background-color: rgb(63, 55, 55);
 }
 .footer-box{
-    background-color: darkslategray;
+    background-color: rgb(77, 83, 83);
 }
