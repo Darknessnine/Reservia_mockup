@@ -4,8 +4,8 @@
 
 .main-con{
     box-sizing: border-box;
-    background-color:#DEEBFF;
-    max-width: 1500px;
+    background-color:#f0f0f0;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -14,8 +14,8 @@
     background-color: red;
 }
 
-.nav-con{
-    background-color: rgb(199, 224, 199);
+.nav-con{)
+    margin: 0px 0px 0px;
 }
 
 .nav-con a{
@@ -26,7 +26,7 @@
 }
 
 .reservia-logo{
-    margin: 10px;
+    margin: 15px 0px;
     width: 192.5;
     width: 90px;
 
@@ -34,7 +34,11 @@
 }
 
 .header-con{
-    background-color: rgb(197, 194, 184);
+    
+}
+
+.sub-text{
+  margin: 0px 0px -10px 0px;
 }
 .filter-con{
     background-color: rgba(201, 148, 231, 0.295);
@@ -49,10 +53,10 @@
     display: grid;
     grid-column: 1fr 1fr 1fr;
     grid-column: 1/3;
-    background-color: chocolate;
+    background-color: #F2F2F2;
 }
 .accomodations-card{
-    background-color: rgb(151, 145, 107);
+    background-color: #F2F2F2;
     border: solid 1px black;
 
 }
@@ -66,8 +70,16 @@
     background-color: darkolivegreen;
 }
 .footer-con{
-    background-color: rgb(63, 55, 55);
+    background-color: #F2F2F2;
+    
 }
+
+
 .footer-box{
-    background-color: rgb(77, 83, 83);
+    background-color: rgb(229, 252, 252);
+}
+
+.footer-box a{
+    color: black;
+    text-decoration: none;
 }
