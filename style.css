@@ -14,7 +14,7 @@
     background-color: red;
 }
 
-.nav-con{)
+.nav-con{
     margin: 0px 0px 0px;
 }
 
@@ -48,13 +48,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
     border: solid 1px black;
+    background-color: #F2F2F2;
 }
 .accomodations-con{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr 1fr;
     grid-column: 1/3;
     background-color: #F2F2F2;
+    grid-gap: 20px;
 }
 
 .accomodations-title{
@@ -64,14 +65,28 @@
 .accomodations-card{
     background-color: #F2F2F2;
     border: solid 1px black;
-
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    
+    
 }
+
+.accomodations-card img{
+width: 100%;
+
+
+   
+}
+
 .popular-con{
-    background-color: darkgoldenrod;
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
     border: solid 1px black;
+    grid-gap: 10px;
 }
 .popular-card{
-    background-color: darkgray;
+   
     border: solid 1px black;
 }
 .activites-con{
