@@ -71,15 +71,32 @@
 }
 .footer-con{
     background-color: #F2F2F2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer-box{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+
+
+.footer-box a{
+   font-size: 16px;
+   margin-bottom: 10px;
+   color: black;
     
 }
 
 
-.footer-box{
-    background-color: rgb(229, 252, 252);
-}
 
 .footer-box a{
     color: black;
     text-decoration: none;
+    display: block;
 }
