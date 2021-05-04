@@ -5,8 +5,9 @@
 .main-con{
     box-sizing: border-box;
     background-color:#ffffff;
-    max-width: 1440px;
     margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -30,8 +31,6 @@
     margin: 15px 0px;
     width: 192.5;
     width: 90px;
-
-
 }
 
 .title-style {
@@ -70,8 +69,8 @@ margin-left: 20px;
  
     display: grid;
     grid-template-columns: 6fr 3fr;
-    grid-column-gap: 20px;
-    
+    grid-column-gap: 30px;
+    margin-bottom: 30px;
 }
 .accomodations-con{
     
@@ -85,6 +84,7 @@ margin-left: 20px;
 
 .accomodations-title{
     grid-column: 1/-1;
+ 
 }
 
 .accomodations-card{
@@ -112,9 +112,15 @@ margin-left: 20px;
     grid-gap: 20px;
     border-radius: 30px;
     padding: 30px;
+    
 }
+.pop-figure {
+}
+
 .popular-card{
  background-color: rgb(255, 255, 255);
+ border-radius: 25px;
+ 
 }
 
 .pop-img{
@@ -124,11 +130,73 @@ margin-left: 20px;
     border-radius:  15px 0px 0px 15px;
 }
 
+
 .activites-con{
-    background-color: rgb(255, 255, 255);
+    background-color: #F2F2F2;
     border-radius: 30px;
     padding: 30px;
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .2fr 1fr 1fr;
+    margin-bottom: 30px;
 }
+
+.activites-card{
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.test {
+    padding: 50px;
+    background-color: rgb(51, 59, 61);
+    border-radius: 25px;
+    height: 25%;
+}
+.a1 {
+    background-color:  rgb(152, 189, 201);
+    padding: 20px;
+    grid-row: 2/-1;
+    border-radius: 25px;
+}
+
+.a2{
+    background-color: rgb(152, 189, 201);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.a3{
+    background-color:  rgb(152, 189, 201);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.a4{
+    background-color:  rgb(152, 189, 201);
+    padding: 20px;
+    border-radius: 25px;
+    grid-row: 2/-1;
+    grid-column: 3/4;
+}
+
+.a5{
+    background-color:  rgb(152, 189, 201);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.a6{
+    background-color:  rgb(152, 189, 201);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.activites-title {
+    grid-column: 1 /-1;
+}
+
 .footer-con{
     background-color: #F2F2F2;
     display: grid;
@@ -136,7 +204,7 @@ margin-left: 20px;
     grid-gap: 20px;
     width: 100%;
     padding: 20px;
-    box-sizing: border-box;
+    
 }
 
 .footer-box{
