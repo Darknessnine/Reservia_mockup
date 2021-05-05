@@ -75,8 +75,8 @@ margin-left: 20px;
 .accomodations-con{
     
     border-radius: 30px;
-    padding: 30px;
     display: grid;
+    padding: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #F2F2F2;
     grid-gap: 20px;
@@ -108,95 +108,185 @@ margin-left: 20px;
 .popular-con{
     background-color: #F2F2F2;
     display: grid;
-    grid-row: 1fr 1fr 1fr 1fr;
+    grid-row:  1fr 1fr 1fr;
     grid-gap: 20px;
     border-radius: 30px;
     padding: 30px;
     
 }
-.pop-figure {
-}
 
 .popular-card{
  background-color: rgb(255, 255, 255);
  border-radius: 25px;
+ height: 140px;
+ border: white solid 6px;
+ display: flex;
  
 }
 
+.popular-title{
+margin-bottom: 0;
+padding: 0;
+}
+
 .pop-img{
-    width:100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius:  15px 0px 0px 15px;
+    width: 45%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.pop-discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+   
+}
+
+.activites-con{
+    margin: 30px 0px 30px 0px;
+
+}
+
+.act-cards{
+    
+        display: grid;
+        grid-template-columns: repeat(4, 22%);
+        grid-template-rows:  1fr 1fr;
+        grid-column-gap: 4%;
+        grid-row-gap: 25PX;
+        grid-template-areas: 
+        "a1 a2 a4 a5"
+        "a1 a3 a4 a6" 
+        ;
+    
 }
 
 
-.activites-con{
-    background-color: #F2F2F2;
-    border-radius: 30px;
-    padding: 30px;
-    grid-gap: 30px;
+
+
+
+
+.a1{grid-area: a1; }
+.a2{grid-area: a2;}
+.a3{grid-area: a3;}
+.a4{grid-area: a4;}
+.a5{grid-area: a5;}
+.a6{grid-area: a6;}
+
+
+.act-long-img{
+    height: 89%;
+    width: 100%;
+    border-top-left-radius:13px;
+    border-top-right-radius:13px;
+    object-fit: cover;
+}
+
+.act-short-img{
+  width: 100%;
+  height: 200px;
+  border-top-left-radius:13px;
+  border-top-right-radius:13px;
+  object-fit: cover;
+}
+
+.activites-card-long{
+    border-radius: 15px;
+    background-color: rgb(177, 46, 46);
+
+    
+    
+}
+
+.activites-card-short{
+    border-radius: 15px;
+    background-color: rgb(85, 120, 161);
+
+    
+    
+}
+
+
+/*  .activites-con{
     display: grid;
+    background-color: #F2F2F2;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .2fr 1fr 1fr;
-    margin-bottom: 30px;
+    grid-template-rows:  1fr 5vh 5vh 5vh 5vh 5vh;
+    grid-gap: 30px;
+    
 }
 
 .activites-card{
     border-radius: 15px;
-    text-align: center;
+    background-color: white;
+    
     
 }
 
-.test {
-    padding: 50px;
-    background-color: rgb(51, 59, 61);
-    border-radius: 25px;
-    height: 25%;
+.image-con{
+    
+  
+
+
+
 }
+.act-long-img{
+    width: 100%;
+    height: 80%;
+    border-top-left-radius:13px;
+    border-top-right-radius:13px;
+    object-fit: cover;
+}
+
+.act-short-img{
+  width: 100%;
+  height: 80%;
+  border-top-left-radius:13px;
+  border-top-right-radius:13px;
+  object-fit: cover;
+}
+
+
 .a1 {
-    background-color:  rgb(152, 189, 201);
-    padding: 20px;
+    
     grid-row: 2/-1;
-    border-radius: 25px;
+    
+ 
+
 }
 
 .a2{
-    background-color: rgb(152, 189, 201);
-    padding: 20px;
-    border-radius: 25px;
+    grid-row: 2/5;
+
+
 }
 
 .a3{
-    background-color:  rgb(152, 189, 201);
-    padding: 20px;
-    border-radius: 25px;
+    grid-row: 5/7;
 }
 
 .a4{
-    background-color:  rgb(152, 189, 201);
-    padding: 20px;
-    border-radius: 25px;
     grid-row: 2/-1;
     grid-column: 3/4;
+
 }
 
 .a5{
-    background-color:  rgb(152, 189, 201);
-    padding: 20px;
-    border-radius: 25px;
+    grid-row: 2/4;
+
 }
 
 .a6{
-    background-color:  rgb(152, 189, 201);
-    padding: 20px;
-    border-radius: 25px;
+    grid-row: 4/7;
+
 }
 
 .activites-title {
     grid-column: 1 /-1;
 }
-
+ */
 .footer-con{
     background-color: #F2F2F2;
     display: grid;
@@ -241,4 +331,6 @@ margin-left: 20px;
     float: right;
 }
 
-
+.accom-stars{
+    margin-bottom: 20px;
+}
