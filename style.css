@@ -289,6 +289,9 @@ padding: 0;
     margin-bottom: 20px;
 }
 
+.fa-map-marker-alt,  .fa-chart-line{
+    color: black;
+}
 .shadow{
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.3), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
 }
