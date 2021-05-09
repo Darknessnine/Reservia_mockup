@@ -43,15 +43,14 @@
     border: solid #F2F2F2 1px;
     display: inline-block;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 24px;
 }
 
 .search-box-marker{
-    padding: 9px 13px 9px 13px;
+    padding: 9px 15px 9px 15px;
     background-color:#F2F2F2;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
-    margin-left: -10px;
 }
 
 .input-search{
@@ -144,11 +143,12 @@ margin-left: 20px;
  height: 140px;
  border: white solid 6px;
  display: flex;
+ margin-bottom: -22px;
 }
 
 .popular-title{
-margin-bottom: 0;
-padding: 0;
+margin-bottom: -80px ;
+padding: 20px;
 }
 
 .pop-img{
