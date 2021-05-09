@@ -10,6 +10,7 @@
     margin-right: 20px;
     overflow: hidden;
     font-family: 'Raleway', sans-serif;
+    font-size: 14px;
 }
 
 .nav-con{
@@ -279,7 +280,7 @@ padding: 20px;
 
 @media only screen and (min-width: 768px) and (max-width: 1211px) {
     .main-con {
-        background-color: rgb(226, 226, 226);
+       
     }
 
     .accommodations-popular-con{
@@ -302,23 +303,37 @@ padding: 20px;
 }
 
 @media only screen and (max-width: 767px) {
-    .main-con{
-        background-color: rgb(255, 255, 255);
-    }
+  
     .accommodations-popular-con{
         display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: 1fr 1fr;
-    
-
+        grid-template-rows: 1fr 1fr ;
+        
     }
+
     .accomodations-con{
         order: 2;
+        background-color: white;
+        margin-top: -70px;
     }
+
+    .accomodations-title{
+        grid-column: 1/-1;
+        
+     
+    }
+    
        
     .popular-con{
         order: 1;
+        
+        display: grid;
+        grid-template-rows: 90px 166px 166px 166px;
+        border-radius: 0px;
+        height: 600px;
+        margin-bottom: 
+        
+        
     }
-    
 
-    }
+}
