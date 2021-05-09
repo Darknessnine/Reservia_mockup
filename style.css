@@ -6,23 +6,30 @@
     box-sizing: border-box;
     background-color:#ffffff;
     margin: auto;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 28px 28px 0px 28px;
     overflow: hidden;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
 
+
+
 .nav-con{
     margin: 0px 0px 0px;
+}
+
+.sign-up{
+    font-weight: bold;
+    color:  #0065FC;
 }
 
 .nav-con a{
     float: right;
     padding: 15px 20px;
     text-decoration: none;
-    color: black;
+    
 }
+
 
 .reservia-logo{
     margin: 15px 0px;
@@ -184,7 +191,6 @@ padding: 20px;
     
 }
 
-
 .a1{grid-area: a1; }
 .a2{grid-area: a2;}
 .a3{grid-area: a3;}
@@ -201,15 +207,16 @@ padding: 20px;
     object-fit: cover;
 }
 
-.act-title-margin{ 
-    margin-left: 13px;
-}
 .act-short-img{
   width: 100%;
   height: 200px;
   border-top-left-radius:13px;
   border-top-right-radius:13px;
   object-fit: cover;
+}
+
+.act-title-margin{ 
+    margin-left: 13px;
 }
 
 .activites-card-long{
@@ -268,27 +275,31 @@ padding: 20px;
     margin-bottom: 20px;
 }
 
+.fa-search{
+    color: white;
+}
 .fa-map-marker-alt,  .fa-chart-line{
     color: black;
 }
 .shadow{
-    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.3), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.3), 0 3px 7px 0 rgba(0, 0, 0, 0.12);
+}
+
+a:hover , .accom-img:hover , .act-long-img:hover , .act-short-img:hover, .pop-img:hover {
+    background-color: orange;
+    border: solid 3px orange;
+    box-sizing: border-box;
 }
 
 
 
 
 @media only screen and (min-width: 768px) and (max-width: 1211px) {
-    .main-con {
-       
-    }
 
     .accommodations-popular-con{
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr;
-    
-
     }
     .accomodations-con{
         order: 2;
@@ -304,36 +315,95 @@ padding: 20px;
 
 @media only screen and (max-width: 767px) {
   
+    .main-con{
+        margin: 0px;
+        padding:5px;
+    }
+
+    .nav-con{
+        margin: 0px 0px 0px;
+    }
+    
+    .sign-up{
+        display: inline-block;
+        position: absolute;
+        margin:30px 0px 0px 220px;
+        
+    }
+    
+    .nav-con a{
+        float:none;
+        padding: 0;
+        
+    }
+      
+    .reservia-logo{
+        margin: 15px 0px;
+        width: 192.5;
+        width: 90px;
+    }
+
     .accommodations-popular-con{
         display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: 1fr 1fr ;
-        
+        grid-template-rows: .3fr .5fr ; 
     }
 
     .accomodations-con{
         order: 2;
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
         background-color: white;
-        margin-top: -70px;
+        margin-top: 0px;
     }
 
-    .accomodations-title{
-        grid-column: 1/-1;
-        
-     
+    .accom-img{
+        width:100%;
+        height: 125px;
+
     }
-    
        
     .popular-con{
         order: 1;
-        
         display: grid;
         grid-template-rows: 90px 166px 166px 166px;
         border-radius: 0px;
         height: 600px;
-        margin-bottom: 
-        
-        
     }
+
+
+    .act-cards{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    
+    }
+
+    .act-t{
+        margin-left: 13px;
+    }
+    .act-long-img{
+        height: 150px;
+    }
+    
+    .act-title-margin{ 
+        margin-left: 13px;
+    }
+    .act-short-img{
+      height:150px;
+     
+    }
+
+    .footer-con{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    
+    .footer-box {
+        padding: 15px 0px;
+    }
+
 
 }
