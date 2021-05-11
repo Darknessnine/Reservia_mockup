@@ -161,6 +161,7 @@
     height: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    object-fit: cover;
 }
 
 .pop-discription {
