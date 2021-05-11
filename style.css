@@ -34,7 +34,7 @@
 }
 .reservia-logo{
     margin: 15px 0px;
-    width: 192.5;
+    width: 192.5px;
     width: 90px;
 }
 
@@ -136,7 +136,6 @@
 .popular-con{
     background-color: #F2F2F2;
     display: grid;
-    grid-row:  1fr 1fr 1fr;
     border-radius: 30px;
     padding: 0px 20px;
 
@@ -272,7 +271,7 @@
 }
 
 .fas {
-    color: 0065FC;
+    color: #0065FC;
 }
 
 .fa-chart-line {
@@ -365,13 +364,6 @@ a:hover , .accom-img:hover , .act-long-img:hover , .act-short-img:hover, .pop-im
         margin:25px 0px 0px 188px;
     }
     
-      
-    .reservia-logo{
-        margin: 15px 0px;
-        width: 192.5;
-        width: 90px;
-    }
-
     .accommodations-popular-con{
         display: grid;
         grid-template-columns: 1fr ;
@@ -442,10 +434,8 @@ a:hover , .accom-img:hover , .act-long-img:hover , .act-short-img:hover, .pop-im
     .act-short-img{
        width: 100%;
        height: 70%;
-
     }
     
-
     .footer-con{
         display: flex;
         flex-direction: column;
