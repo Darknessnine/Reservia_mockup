@@ -88,6 +88,7 @@
     margin-left: 20px;
 }
 
+
 .filter-box span {
     background-color: #DEEBFF;
     padding: 10px;
@@ -206,7 +207,7 @@
 
 .act-short-img{
    width: 100%;
-   height: 200px;
+   height: 80%;
    border-top-left-radius:13px;
    border-top-right-radius:13px;
    object-fit: cover;
@@ -219,11 +220,13 @@
 .activites-card-long{
     border-radius: 15px;
     background-color: rgb(255, 255, 255);
+    height: 60vh;
 }
 
 .activites-card-short{
     border-radius: 15px;
     background-color: rgb(255, 255, 255);
+    height:29vh;
 }
 
 /* footer */
@@ -323,7 +326,7 @@ a:hover , .accom-img:hover , .act-long-img:hover , .act-short-img:hover, .pop-im
   
     .main-con{
         margin: 0px;
-        padding:5px;
+        padding:8px;
     }
 
     .nav-accom , .nav-act{
@@ -331,6 +334,15 @@ a:hover , .accom-img:hover , .act-long-img:hover , .act-short-img:hover, .pop-im
         color:#0065FC;
         margin: 40px 30px;
 
+    }
+
+    .filter-title{
+        display: block;
+        width: 100%;
+    }
+
+    .filter-box{
+        margin: 10px;
     }
 
     .nav-act{ 
@@ -349,11 +361,9 @@ a:hover , .accom-img:hover , .act-long-img:hover , .act-short-img:hover, .pop-im
     }
 
     .sign-up{
-        display: inline-block;
         position: absolute;
-        margin:30px 0px 0px 220px;
+        margin:25px 0px 0px 188px;
     }
-    
     
       
     .reservia-logo{
@@ -393,22 +403,48 @@ a:hover , .accom-img:hover , .act-long-img:hover , .act-short-img:hover, .pop-im
     .act-cards{
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        margin: 20px 10px;
     }
 
     .act-t{
         margin-left: 13px;
     }
     .act-long-img{
-        height: 150px;
+        height: 200px;
     }
     
     .act-title-margin{ 
         margin-left: 13px;
     }
     .act-short-img{
-      height:150px;
+      height:10%;
     }
+
+    .activites-card-long{
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255);
+        height:220px;
+    }
+    
+    .activites-card-short{
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255);
+        height:220px
+        
+    }
+
+    .act-long-img{
+        width: 100%;
+        height: 70%;
+
+    }
+    
+    .act-short-img{
+       width: 100%;
+       height: 70%;
+
+    }
+    
 
     .footer-con{
         display: flex;
