@@ -79,6 +79,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    margin: 10px 0px;
 }
 
 .filter-box{
@@ -270,7 +271,11 @@
     color:  #0065FC;
 }
 
-#gray-tag{
+#gray-tag {
+    
+}
+
+.graystar{
     color: gray;
 }
 
