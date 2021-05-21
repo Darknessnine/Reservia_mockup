@@ -298,15 +298,15 @@
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.3), 0 3px 7px 0 rgba(0, 0, 0, 0.12);
 }
 
-a:hover , .accom-img:hover , .act-long-img:hover , .act-short-img:hover, .pop-img:hover {
-    background-color: orange;
+img:hover {
     border: solid 3px orange;
     box-sizing: border-box;
 }
 
-.gray-color{
-    color: red;
+a:hover{
+    background-color: orange;
 }
+
 
 /* Media sizing */
 
@@ -330,8 +330,6 @@ a:hover , .accom-img:hover , .act-long-img:hover , .act-short-img:hover, .pop-im
         margin: 15px 5px;
      }
     
-
-
 }
 
 @media only screen and (max-width: 767px) {
